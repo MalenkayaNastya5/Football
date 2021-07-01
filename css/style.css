@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+
+@media (max-width: 767px) {
+  
+}
+
+
+h1, h2 {
+  text-align: center;
+}
+
+h2{
+  color: #0000FF;
+}
+
+
+h3{
+  padding-left: 22px;
+}
+
+ul li a{
+  color: blue;
+
+}
+
+
+ul li a:hover{
+  color: red;
+}
+
+
+header,footer{
+  background-color: #ADD8E6;
+  padding: 5px 0;
+}
+
+
+#content{
+  display: flex;
+}
+
+
+
+
+
+nav{
+  width: 250px;
+  background-color: rgb(240, 230, 140);
+}
+
+#site_text{
+  width: calc(100% - 250px);
+  padding: 10px 60px 10px 25px;
+  background-image: url(../img/ball.gif);
+  background-repeat: repeat-y;
+  background-position: right top;
+  box-sizing: border-box;
+}
+
+.float_left{
+  float: left;
+  padding-right: 10px;
+}
+
+
+
+
+
+@media (max-width: 650px) {
+  #content{
+    flex-direction: column;
+  } 
+  nav, #site_text{
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+    .float_left{
+      float: none;
+      padding: 0;
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+table tr:nth-child(2n+1) td{
+  background-color: #ADD8E6;
+}
+
+
+table tr:nth-child(2n) td:first-child{
+  background-color: #F0E68C;
+  width: 15%;
+}
+
+
+table tr:nth-child(2n) td:last-child{
+  vertical-align: top;
+  padding: 15px;
+}
+
+
+
+
+
+*/
+
